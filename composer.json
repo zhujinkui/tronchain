@@ -1,0 +1,24 @@
+{
+    "name": "zhujinkui/tronchain",
+    "description": "Tron class library",
+    "license": "Apache-2.0",
+    "authors": [
+        {
+            "name": "zhujinkui",
+            "email": "developer@zhujinkui.com"
+        }
+    ],
+    "require": {
+        "php": "^7.4",
+        "guzzlehttp/guzzle": "^6.3",
+        "kornrunner/secp256k1": "^0.1.2",
+        "sc0vu/web3.php": "^0.1.4",
+        "simplito/elliptic-php": "^1.0",
+        "stephenhill/base58": "^1.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "think\\": "src/"
+        }
+    }
+}
